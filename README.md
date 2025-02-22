@@ -1,4 +1,4 @@
-# Repositório de Projetos Java
+# Desenvolvimento Java
 
 Este repositório contém diversos pequenos projetos Java, cada um com sua própria `main class`. Os projetos foram desenvolvidos como parte das atividades acadêmicas no curso de **Análise e Desenvolvimento de Sistemas (ADS) do IFSP Caraguatatuba**.
 
