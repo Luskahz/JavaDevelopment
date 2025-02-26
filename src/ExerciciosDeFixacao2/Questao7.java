@@ -4,11 +4,11 @@
     que já pertencem a v1. 
 */
 package ExerciciosDeFixacao2;
-import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 public class Questao7 {
     public static int[] Validacao(int[] v1, int[] v2){
+        
         int contDiferentes=0;
         for(int i = 0;i < v2.length; i++){
             int cont = 0;
@@ -28,15 +28,14 @@ public class Questao7 {
         
     return v1;
     }
-
     public static void main(String[] args) {
-    int[] vet1 = new int[5];
+    int[] vet1 = new int[10];
     int[] vet2 = new int[5];
-
-     boolean loop = true;
+    boolean loop = true;
+    
      while(loop){
         JOptionPane.showMessageDialog(null,"Validador de vetores ");
-        for(int i = 0; i < vet1.length; i++ ){
+        for(int i = 0; i < 5; i++ ){
         vet1[i] = Integer.parseInt(JOptionPane.showInputDialog(null, " insira o" + i + "° valor do vet1"));
         }
         for(int i = 0; i < vet2.length; i++ ){
@@ -48,6 +47,7 @@ public class Questao7 {
         for(int i = 0; i< vet1.length; i++){
             str += vet1[i] + " ";
         }
+        JOptionPane.showMessageDialog(null, str);
      }
      
     }

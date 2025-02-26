@@ -21,11 +21,11 @@ public class Questao5 {
        
        int n, u, d, c; 
        Scanner sc = new Scanner(System.in);
-        System.out.print("Insira um numero de 3 digitos: ");
-        n = sc.nextInt();
-        u = n % 10; //3 
-        d = ((n % 100) - u)/10;//2
-        c = (n - (u + d))/100; //1 
+       System.out.print("Insira um numero de 3 digitos: ");
+       n = sc.nextInt();
+       u = n % 10; //3 
+       d = ((n % 100) - u)/10;//2
+       c = (n - (u + d))/100; //1 
         
         System.out.println("o numero invertido é: " + u + d + c);
     }
